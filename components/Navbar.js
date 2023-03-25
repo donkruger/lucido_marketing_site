@@ -1,9 +1,11 @@
-import React from 'react';
+// components/Navbar.js
+
 import Link from 'next/link';
+import styles from './Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <ul>
         <li>
           <Link href="/">
@@ -21,7 +23,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/contact-us">
+          <Link href="/contact">
             <a>Contact us</a>
           </Link>
         </li>
