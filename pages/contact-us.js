@@ -1,12 +1,10 @@
+// pages/how-it-works.js
 
-import Layout from '../components/Layout';
-
-const Contact = () => {
+export default function ContactUs() {
   return (
-    <Layout>
-      <h1>Contact Us</h1>
-    </Layout>
+    <div>
+      <h1>Submit a Query</h1>
+      <p>Here you can add content about communications.</p>
+    </div>
   );
-};
-
-export default Contact;
+}
