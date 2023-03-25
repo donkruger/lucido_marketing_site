@@ -1,7 +1,7 @@
 // components/Navbar.js
 
-import Link from 'next/link';
-import styles from '../styles/Navbar.module.css';
+import Link from "next/link";
+import styles from "../styles/Navbar.module.css";
 
 const Navbar = () => {
   return (
@@ -23,7 +23,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/contact">
+          <Link href="/contact-us">
             <a>Contact us</a>
           </Link>
         </li>
