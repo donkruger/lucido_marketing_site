@@ -1,12 +1,10 @@
-import Layout from '../components/Layout';
+// pages/how-it-works.js
 
-const Investors = () => {
+export default function Investors() {
   return (
-    <Layout>
+    <div>
       <h1>Our team</h1>
-    </Layout>
+      <p>Here you can add content about Investors.</p>
+    </div>
   );
-};
-
-export default Investors;
-
+}
